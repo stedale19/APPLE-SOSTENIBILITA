@@ -1,24 +1,24 @@
-
 /* Impostazioni di base per il corpo della pagina */
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: #e8f5e9; /* Verde chiaro */
+    background-color: #ccf4cf; /* Verde chiaro */
     margin: 0;
     padding: 0;
     color: #333;
+    text-align: center; /* Centra tutto il contenuto */
 }
 
 /* Impostazioni per l'intestazione */
 header {
-    background-color: #4caf50; /* Verde Apple */
-    color: #ffffff;
-    margin: 0;
-    text-align: center;
+    background-color: #c5f7c6; /* Verde Apple */
+    color: #92f38d;
+     margin: 0;
     padding: 20px 0;
 }
 
-header h1 {
-    font-size: 36px;
+header h1,
+header h2 {
+    color: #388e3c; /* Verde per i titoli */
     margin: 0;
 }
 
@@ -29,57 +29,51 @@ header p {
 
 /* Stile per la sezione dei report */
 #report-list {
-    margin: 20px;
+    margin: 20px auto;
     padding: 20px;
     background-color: #ffffff;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-/* Stile per la sezione delle immagini */
-#images {
-    margin: 20px;
-    padding: 20px;
-    background-color: #ffffff;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
 }
 
-/* Container per le immagini, usando Flexbox */
-.image-container {
+/* Stile per la sezione delle immagini */
+.images-container {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: center; /* Centra le immagini orizzontalmente */
+    align-items: center; /* Allinea le immagini verticalmente */
+    gap: 10px; /* Spazio tra le immagini */
+    flex-wrap: wrap; /* Permette alle immagini di andare a capo se lo spazio è insufficiente */
 }
 
 /* Stile per le immagini */
 .image-item {
-    width: 450px;
-    height: 200px;
+    width: 150px; /* Immagini piccole */
+    height: auto;
     margin: 10px;
 }
-  
+
 
 
 /* Stile per i titoli dei report */
 #report-list h2 {
     font-size: 28px;
     color: #2e7d32;
-    text-align: center;
-    margin-bottom: 20px;
+     margin-bottom: 20px;
 }
 
 /* Centra i titoli <h1> */
 h1 {
     text-align: center;
     font-size: 36px;
-    color: #ffffff;
+    color: #388e3c; /* Verde per i titoli */
 }
 
 /* Centra i titoli <h2> */
 h2 {
     text-align: center;
     font-size: 28px;
-    color: #388e3c;
+    color: #388e3c; /* Verde per i titoli */
 }
 
 
@@ -119,7 +113,7 @@ h2 {
 /* Stile per il testo descrittivo del report */
 #report-list p {
     font-size: 16px;
-    color: #666;
+    color: #000000; /* Testo in nero */
     margin-top: 10px;
     max-width: 80%;
 }
