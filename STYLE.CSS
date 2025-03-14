@@ -1,8 +1,7 @@
-```css
 /* Impostazioni di base per il corpo della pagina */
 body {
     font-family:'Roboto', sans-serif; /* Usa il font Roboto*/
-    background-color: rgba(244, 244, 249, 0.728);
+    background-color: #ffffff52; /* equivalente a rgba(255, 255, 255, 0.65) */
     margin: 0;
     padding: 0;
     color: #333;
@@ -11,7 +10,8 @@ body {
 /* Impostazioni per l'intestazione */
 header {
     background-color: #64c471 ; /* Colore Apple green*/
-    color: rgba(255, 255, 255, 0.337)255, 255, 255, 0.651);
+    color: #ffffff52; /* equivalente a rgba(255, 255, 255, 0.65) */
+    margin: 0;
     text-align: center;
     padding: 20px 0;
 }
@@ -32,7 +32,7 @@ header p {
     padding: 20px;
     background-color: #ffffff;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px #ffffff00 (0, 0, 0, 0.1);
 }
 /* Stile per la sezione delle immagini */
 #images {
@@ -40,7 +40,7 @@ header p {
     padding: 20px;
     background-color: #ffffff;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px #ffffff00 (0, 0, 0, 0.74);
 }
 
 /* Container per le immagini, usando Flexbox */
@@ -158,5 +158,4 @@ iframe {
     width: 560px;
     height: 400px;
     border: none;
-
-```
+}
