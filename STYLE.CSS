@@ -1,7 +1,8 @@
+
 /* Impostazioni di base per il corpo della pagina */
 body {
-    font-family:'Roboto', sans-serif; /* Usa il font Roboto*/
-    background-color: #ffffff52; /* equivalente a rgba(255, 255, 255, 0.65) */
+    font-family: 'Roboto', sans-serif;
+    background-color: #e8f5e9; /* Verde chiaro */
     margin: 0;
     padding: 0;
     color: #333;
@@ -9,8 +10,8 @@ body {
 
 /* Impostazioni per l'intestazione */
 header {
-    background-color: #64c471 ; /* Colore Apple green*/
-    color: #ffffff52; /* equivalente a rgba(255, 255, 255, 0.65) */
+    background-color: #4caf50; /* Verde Apple */
+    color: #ffffff;
     margin: 0;
     text-align: center;
     padding: 20px 0;
@@ -32,7 +33,7 @@ header p {
     padding: 20px;
     background-color: #ffffff;
     border-radius: 8px;
-    box-shadow: 0 0 10px #ffffff00 (0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 /* Stile per la sezione delle immagini */
 #images {
@@ -40,30 +41,29 @@ header p {
     padding: 20px;
     background-color: #ffffff;
     border-radius: 8px;
-    box-shadow: 0 0 10px #ffffff00 (0, 0, 0, 0.74);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 /* Container per le immagini, usando Flexbox */
 .image-container {
     display: flex;
-    justify-content: space-around;  
-    /* Spaziatura tra le immagini */
-    align-items: center;  /* Centra le immagini orizzontalmente */
+    justify-content: space-around;
+    align-items: center;
 }
 
 /* Stile per le immagini */
 .image-item {
-    width: 450px;  /* Imposta la larghezza delle immagini */
-    height: 200px;  /* Mantieni le proporzioni corrette */
-    margin: 10 10px;  /* Distanza tra le immagini */
+    width: 450px;
+    height: 200px;
+    margin: 10px;
 }
-
+  
 
 
 /* Stile per i titoli dei report */
 #report-list h2 {
     font-size: 28px;
-    color: #0078d4626b;
+    color: #2e7d32;
     text-align: center;
     margin-bottom: 20px;
 }
@@ -79,7 +79,7 @@ h1 {
 h2 {
     text-align: center;
     font-size: 28px;
-    color: #008912;
+    color: #388e3c;
 }
 
 
@@ -102,7 +102,7 @@ h2 {
 
 /* Stile per i bottoni di download */
 #report-list button {
-    background-color: #003407;
+    background-color: #2e7d32;
     color: white;
     padding: 10px 15px;
     border: none;
@@ -113,7 +113,7 @@ h2 {
 }
 
 #report-list button:hover {
-    background-color: #008912;
+    background-color: #388e3c;
 }
 
 /* Stile per il testo descrittivo del report */
@@ -137,7 +137,7 @@ footer {
 
 /* Stile per i link */
 a {
-    color: #008912;
+    color: #2e7d32;
     text-decoration: none;
 }
 
@@ -150,7 +150,7 @@ a:hover {
     display: flex;
     justify-content: center;
     margin-top: 20px;
-    align-items: center;  /* Centra il video orizzontalmente */
+    align-items: center;
 }
 
 /* Impostazioni per l'iframe del video */
