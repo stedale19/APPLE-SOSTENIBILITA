@@ -10,7 +10,7 @@ body {
 
 /* Impostazioni per l'intestazione */
 header {
-    background-color: #c5f7c6; /* Verde Apple */
+    background-color: #a6eaa7; /* Verde Apple */
     color: #92f38d;
      margin: 0;
     padding: 20px 0;
@@ -23,7 +23,7 @@ header h2 {
 }
 
 header p {
-    font-size: 18px;
+    font-size: 18px; 
     margin-top: 10px;
 }
 
@@ -48,8 +48,8 @@ header p {
 
 /* Stile per le immagini */
 .image-item {
-    width: 150px; /* Immagini piccole */
-    height: auto;
+    width: 600px; /* Immagini medie */
+    height: 300px;
     margin: 10px;
 }
 
@@ -58,21 +58,21 @@ header p {
 /* Stile per i titoli dei report */
 #report-list h2 {
     font-size: 28px;
-    color: #2e7d32;
+    color: #225c25; /*Verde scuro per i titoli*/
      margin-bottom: 20px;
 }
 
 /* Centra i titoli <h1> */
 h1 {
     text-align: center;
-    font-size: 36px;
-    color: #388e3c; /* Verde per i titoli */
+    font-size: 36px; /*Dimensione del titolo principale*/
+    color: #386825; /* Verde per i titoli */
 }
 
 /* Centra i titoli <h2> */
 h2 {
     text-align: center;
-    font-size: 28px;
+    font-size: 26px;/*Dimensione del sottotitolo, più piccola del titolo*/
     color: #388e3c; /* Verde per i titoli */
 }
 
