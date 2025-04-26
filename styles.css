@@ -48,8 +48,8 @@ header p {
 
 /* Stile per le immagini */
 .image-item {
-    width: 500px; /* Immagini medie */
-    height: 400px;
+    width: 400px; /* Immagini medie */
+    height: 350px;
     margin: 10px;
 }
 
