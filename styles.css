@@ -48,8 +48,8 @@ header p {
 
 /* Stile per le immagini */
 .image-item {
-    width: 1280px; /* Immagini medie */
-    height: 640px;
+    width: 800px; /* Immagini medie */
+    height: 600px;
     margin: 10px;
 }
 
@@ -149,7 +149,7 @@ a:hover {
 
 /* Impostazioni per l'iframe del video */
 iframe {
-    width: 300px;
-    height: 300px;
+    width: 800px;
+    height: 600px;
     border: none;
 }
