@@ -149,7 +149,7 @@ a:hover {
 
 /* Impostazioni per l'iframe del video */
 iframe {
-    width: 560px;
-    height: 400px;
+    width: 300px;
+    height: 250px;
     border: none;
 }
